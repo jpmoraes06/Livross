@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandria Digital Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+        .featured-collection {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .books {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .book {
+            width: 200px;
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .book img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .book-title {
+            font-size: 18px;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        .book-author {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .book-price {
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .buy-button {
+            background-color: #00a86b;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .buy-button:hover {
+            background-color: #008f5a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        Alexandria Digital Library
+    </div>
+
+    <div class="container">
+        <div class="featured-collection">
+            Featured Collection
+        </div>
+        <div class="books">
+            <!-- Book 1 -->
+            <div class="book">
+                <img src="https://via.placeholder.com/150" alt="The Bachman Books">
+                <div class="book-title">The Bachman Books</div>
+                <div class="book-author">Stephen King</div>
+                <div class="book-price">150 BDT</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <!-- Book 2 -->
+            <div class="book">
+                <img src="https://via.placeholder.com/150" alt="La Roue Du Temps">
+                <div class="book-title">La Roue Du Temps</div>
+                <div class="book-author">Robert Jordan</div>
+                <div class="book-price">150 BDT</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <!-- Book 3 -->
+            <div class="book">
+                <img src="https://via.placeholder.com/150" alt="Steinbeck">
+                <div class="book-title">Steinbeck</div>
+                <div class="book-author">Stephen King</div>
+                <div class="book-price">100 BDT</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <!-- Book 4 -->
+            <div class="book">
+                <img src="https://via.placeholder.com/150" alt="The Silent Patient">
+                <div class="book-title">The Silent Patient</div>
+                <div class="book-author">Alex Michaelides</div>
+                <div class="book-price">150 BDT</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <!-- Book 5 -->
+            <div class="book">
+                <img src="https://via.placeholder.com/150" alt="Game of Thrones">
+                <div class="book-title">Game of Thrones</div>
+                <div class="book-author">George R.R. Martin</div>
+                <div class="book-price">250 BDT</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <!-- Additional books can be added in a similar format -->
+        </div>
+    </div>
+
+</body>
+</html>
